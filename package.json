@@ -1,0 +1,22 @@
+{
+  "name": "dog-shelter",
+  "version": "1.0.0",
+  "description": "SoftUni JS Back End Course Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelAbadon/Dog-Shelter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PavelAbadon/Dog-Shelter/issues"
+  },
+  "homepage": "https://github.com/PavelAbadon/Dog-Shelter#readme"
+}

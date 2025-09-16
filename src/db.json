@@ -1,0 +1,54 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Rex",
+      "breed": "German Shepherd",
+      "description": "Loyal and protective, great working dog and family companion."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.pexels.com/photos/4587990/pexels-photo-4587990.jpeg",
+      "name": "Bella",
+      "breed": "Golden Retriever",
+      "description": "Friendly, intelligent and devoted. Loves playing fetch."
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.pexels.com/photos/332612/pexels-photo-332612.jpeg",
+      "name": "Max",
+      "breed": "Labrador Retriever",
+      "description": "Gentle and loving, enjoys swimming and long walks."
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://images.pexels.com/photos/4587998/pexels-photo-4587998.jpeg",
+      "name": "Lucy",
+      "breed": "Beagle",
+      "description": "Curious and merry, follows scents everywhere."
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://images.pexels.com/photos/4588052/pexels-photo-4588052.jpeg",
+      "name": "Charlie",
+      "breed": "French Bulldog",
+      "description": "Adaptable and playful, loves cuddles on the sofa."
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://images.pexels.com/photos/4587973/pexels-photo-4587973.jpeg",
+      "name": "Milo",
+      "breed": "Husky",
+      "description": "Energetic and vocal, with striking blue eyes."
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://images.pexels.com/photos/4588030/pexels-photo-4588030.jpeg",
+      "name": "Daisy",
+      "breed": "Cocker Spaniel",
+      "description": "Affectionate, cheerful, and always wagging her tail."
+    }
+  ],
+  "breeds": []
+}

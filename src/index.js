@@ -9,9 +9,28 @@ const server = http.createServer(async (req, res) =>{
     });
 
     res.write(homeHtml);
-
     res.end();
-    }else if(req.url === '/styles/site.css'){
+
+    }else if(req.url === '/cats/add-breed'){
+        const addBreadHtml = await fs.readFile('./src/views/addBreed.html', {encoding: 'utf-8'});
+        res.writeHead(200, {
+        "content-type": 'text/html'
+    });
+
+    res.write(addBreadHtml);
+    res.end();
+
+    }else if(req.url === '/cats/add-cat'){
+        const addCatHtml = await fs.readFile('./src/views/addCat.html', {encoding: 'utf-8'});
+        res.writeHead(200, {
+        "content-type": 'text/html'
+    });
+
+    res.write(addCatHtml);
+    res.end();
+
+    }
+    else if(req.url === '/styles/site.css'){
         const homeCss = await fs.readFile('./src/content/styles/site.css', {encoding: 'utf-8'});
         res.writeHead(200,{
             "content-type": 'text/css'
@@ -20,6 +39,9 @@ const server = http.createServer(async (req, res) =>{
         res.write(homeCss);
 
     res.end()
+
+    }else{
+        res.end();
     }
     
     

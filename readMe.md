@@ -9,11 +9,11 @@ SoftUni JS Back End Course Project
  - [x] Add resources
  - [x] Show home page
  - [x] Add css
- - [ ] Extract css into separate js files
- - [ ] Read home html from file system
- - [ ] Read site css from file system
- - [ ] Add create bread page
- - [ ] Add create cat page
+ - [x] Extract css into separate js files
+ - [x] Read home html from file system
+ - [x] Read site css from file system
+ - [x] Add create bread page
+ - [x] Add create cat page
  - [ ] Render view generic function
  - [ ] Render dynamic cats on home page
  - [ ] Add cats from add-cats page

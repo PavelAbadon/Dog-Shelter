@@ -5,10 +5,10 @@ SoftUni JS Back End Course Project
  - [x] Initialize NodeJS Project
  - [x] Dev script
  - [x] Debugging
- - [ ] Add basic http server
- - [ ] Add resources
- - [ ] Show home page
- - [ ] Add css
+ - [x] Add basic http server
+ - [x] Add resources
+ - [x] Show home page
+ - [x] Add css
  - [ ] Extract css into separate js files
  - [ ] Read home html from file system
  - [ ] Read site css from file system
